@@ -12,3 +12,10 @@ form {
     background-color: grey;
     color: darkblue
 }
+
+form1 div{
+    margin: auto;
+}
+form1 textarea{
+    width: 100%;
+}
