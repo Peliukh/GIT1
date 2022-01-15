@@ -19,3 +19,9 @@ form1 div{
 form1 textarea{
     width: 100%;
 }
+
+fieldset/div/div[1]/label
+
+.choice{
+    color: red;
+}
