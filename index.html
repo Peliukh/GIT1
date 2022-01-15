@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM - ALK</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>Form 1 - przykladowy formularz</h1>
+
+    <div class="form1">
+      <form>
+        <div>
+          <label class="description" id="title1" for="field1">
+            Podaj imię:
+          </label>
+          <input type="text" id="field1" name="field1" />
+        </div>
+        <div> 
+          <label class="description" id="title2" for="field2">
+            Podaj hasło
+          </label>
+          <input type="password" id="field2" name="field2" title="Minimumjedna cyfra i jeden znak duży i jeden znak mały i minimum 6 znaków"
+          pattern="" />
+        </div>
+
+        <div>
+          <label class="description" id="title3" for="field3">
+            Podaj email:
+          </label>
+          <input type="email" id="field3" for="field3" required />
+        </div>
+
+        <div>
+          <label class="description" id="age_label" for="age">
+            Podaj ile masz lat doświadczenia zawodowego?:
+          </label>
+          <input type="number" id="age" name="age" min="2" max="10" value="3" />
+        </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>
